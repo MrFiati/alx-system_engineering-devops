@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -U | sed -E 's/^([^.])/./\1/g' | LC_ALL=C sort | tr '\n' ',' | sed -E 's/,([^,]+)$/\n\1/g'
