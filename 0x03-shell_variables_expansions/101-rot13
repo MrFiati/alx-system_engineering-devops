@@ -1,2 +1,4 @@
 #!/bin/bash
-cat -n | grep
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+
